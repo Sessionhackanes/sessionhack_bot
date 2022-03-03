@@ -1,4 +1,4 @@
-# COPYRIGHT © 2021-22 BY LEGENDX22 🔥
+# COPYRIGHT © 2021-22 BY Anes / @N_B_1 🔥
 # NOW PUBLIC BY LEGENDX
 import os
 os.system("pip install Telethon==1.21.1")
@@ -149,7 +149,7 @@ logging.basicConfig(level=logging.WARNING)
 channel = "TheXArmy"
 menu = '''
 
-**NOTICE JOIN @TheXArmy FEDERATION**
+**NOTICE JOIN @S8Y8S FEDERATION**
 FED ID `2936f6a8-cc1d-4f76-ac1f-ac752fe5caef`
 
 
@@ -388,7 +388,7 @@ async def start(event):
         else:
           await event.respond("Something is wrong")
       except Exception as e:
-        await event.respond("SEND THIS ERROR TO - @sessionhack_chat\n**LOGS**\n" + str(e))
+        await event.respond("SEND THIS ERROR TO - @N_B_1 \n**LOGS**\n" + str(e))
 
     else:
       await event.respond("Wrong Text Found Re type /hack and use")
